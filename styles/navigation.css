@@ -1,0 +1,27 @@
+.navigation {
+   height: 15vh;
+   width: 45%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 60px 40px;
+}
+
+.navigation__logo {
+   height: 80px;
+}
+
+.navigation__menu {
+   width: 100%;
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.navigation__menu-link {
+   text-decoration: none;
+   color: black;
+   font-family: "Leelawadee UI", sans-serif;
+   font-size: 20px;
+}

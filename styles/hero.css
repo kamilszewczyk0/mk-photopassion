@@ -1,0 +1,55 @@
+.hero {
+   display: flex;
+}
+
+.hero__left {
+   position: absolute;
+   top: 0;
+   height: 100vh;
+   width: 40%;
+   display: flex;
+}
+
+.hero__quote-container {
+   margin: auto;
+   margin-right: 0;
+   vertical-align: middle;
+}
+
+.hero__quote {
+   font-family: "Minion Pro", sans-serif;
+   color: #707070;
+}
+
+.hero__quote-description {
+   font-size: calc(8px + 1vw);
+}
+
+@media (max-width: 1199px) {
+   .hero__quote-description {
+      font-size: 25px;
+   }
+}
+
+.hero__quote-name {
+   font-size: calc(4px + 1vw);
+   text-align: end;
+   padding-top: 40px;
+}
+
+@media (max-width: 1199px) {
+   .hero__quote-name {
+      font-size: 20px;
+   }
+}
+
+
+.hero__img {
+   position: absolute;
+   right: 0;
+   top: 0;
+   height: 100vh;
+   width: 60%;
+   object-fit: cover;
+   z-index: -1;
+}
