@@ -1,0 +1,23 @@
+.footer {
+   background: black;
+   color: #ffffff;
+   height: 100px;
+   width: 100%;
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   font-size: calc(5px + 1vw);
+}
+
+@media (min-width: 1452px) {
+   .footer {
+      font-size: 20px;
+   }
+}
+
+.footer__link {
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+}

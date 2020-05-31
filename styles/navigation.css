@@ -22,6 +22,7 @@
 .navigation__menu-link {
    text-decoration: none;
    color: black;
-   font-family: "Leelawadee UI", sans-serif;
+   font-family: "trajan-sans-pro",
+      sans-serif;
    font-size: 20px;
 }
