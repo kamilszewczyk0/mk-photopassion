@@ -1,0 +1,9 @@
+.footer__container {
+   width: 1440px;
+   margin: auto;
+   max-width: 100%;
+   height: inherit;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}

@@ -4,10 +4,10 @@
    height: 100px;
    width: 100%;
    position: absolute;
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
    font-size: calc(5px + 1vw);
+   font-family: font-family: "trajan-sans-pro",
+      sans-serif;
+
 }
 
 @media (min-width: 1452px) {
