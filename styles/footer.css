@@ -4,15 +4,15 @@
    height: 100px;
    width: 100%;
    position: absolute;
-   font-size: calc(5px + 1vw);
-   font-family: font-family: "trajan-sans-pro",
+   font-size: calc(5px + 0.6vw);
+   font-family: "trajan-sans-pro",
       sans-serif;
 
 }
 
-@media (min-width: 1452px) {
+@media (min-width: 1440px) {
    .footer {
-      font-size: 20px;
+      font-size: 14px;
    }
 }
 
@@ -20,4 +20,8 @@
    text-decoration: none;
    color: white;
    padding: 10px;
+}
+
+.footer__credits-link {
+   padding: 0;
 }

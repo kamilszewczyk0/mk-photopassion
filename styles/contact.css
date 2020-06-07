@@ -1,4 +1,107 @@
 .contact {
    height: 85vh;
    display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Tenali Ramakrishna',
+      sans-serif;
+
+}
+
+.contact__left-container {
+   flex-basis: 50%;
+}
+
+.contact__left-content {
+   margin: 7vw;
+}
+
+.contact__right-container {
+   flex-basis: 50%;
+}
+
+.contact__right-content {
+   margin: 10vw;
+
+}
+
+.contact__header {
+   font-size: 25px;
+   padding-bottom: 50px;
+}
+
+.contact__list-header,
+.contact__description-header {
+   font-size: 20px;
+   padding-bottom: 20px;
+}
+
+.contact__list {
+   padding-bottom: 40px;
+}
+
+.contact__list,
+.contact__instruction-list {
+   font-size: 20px;
+   list-style: none;
+   padding-left: 0;
+   margin-right: 0;
+}
+
+.contact__list-item,
+.contact__instruction-list-item {
+   padding-left: 1em;
+   text-indent: -1em;
+}
+
+.contact__list-item::before,
+.contact__instruction-list-item::before {
+   content: "-";
+   padding-right: 5px;
+}
+
+.contact__list-item,
+.contact__instruction-list-item {
+   line-height: 1.5rem;
+}
+
+.contact__description {
+   font-size: 20px;
+   width: 85%;
+}
+
+.contact__instruction-header {
+   padding-bottom: 50px;
+   text-align: center;
+}
+
+.contact__instruction-list {
+   padding-bottom: 30px;
+   margin-left: 40px;
+}
+
+.contact__phone-number {
+   font-weight: bold;
+}
+
+.contact__email {
+   font-size: 20px;
+   text-align: center;
+}
+
+.contact__email-adress {
+   font-weight: bold;
+}
+
+.contact__social-media {
+   padding-top: 100px;
+   text-align: center;
+}
+
+.contact__instagram,
+.contact__facebook {
+   color: #707070;
+   text-decoration: none;
+   font-size: 30px;
+   padding: 0 30px;
 }

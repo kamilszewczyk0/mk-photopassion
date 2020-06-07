@@ -17,11 +17,16 @@
 .about-me__header {
    text-align: center;
    padding-bottom: 7vh;
+   font-size: 25px;
 }
 
 .about-me__text {
    text-align: justify;
    padding-bottom: 4vh;
+   font-size: 20px;
+   font-family: 'Tenali Ramakrishna',
+      sans-serif;
+
 }
 
 .about-me__img-container {
