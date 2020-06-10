@@ -1,55 +1,56 @@
 .hero {
-   display: flex;
-   height: 85vh;
+  display: flex;
+  height: 85vh;
 }
 
 .hero__left {
-   height: 85vh;
-   width: 40%;
-   display: flex;
+  height: 85vh;
+  width: 40%;
+  display: flex;
 }
 
 .hero__quote-container {
-   margin: auto;
-   margin-right: 0;
-   vertical-align: middle;
+  margin: auto;
+  margin-right: 0;
+  vertical-align: middle;
 }
 
 .hero__quote {
-   font-family: "Minion Pro", sans-serif;
-   color: #707070;
+  font-family: "Minion Pro", sans-serif;
+  color: #707070;
 }
 
 .hero__quote-description {
-   font-size: calc(10px + 1vw);
+  font-size: calc(10px + 1vw);
 }
 
 @media (min-width: 1452px) {
-   .hero__quote-description {
-      font-size: 25px;
-   }
+  .hero__quote-description {
+    font-size: 25px;
+  }
 }
 
 .hero__quote-name {
-   font-size: calc(5px + 1vw);
-   text-align: end;
-   padding-top: 40px;
+  font-size: calc(5px + 1vw);
+  text-align: end;
+  padding-top: 40px;
 }
 
 @media (min-width: 1452px) {
-   .hero__quote-name {
-      font-size: 20px;
-   }
+  .hero__quote-name {
+    font-size: 20px;
+  }
 }
 
 .hero__img {
-   position: absolute;
-   background-image: linear-gradient(to right, #E5E5E5, transparent 60%), url("/photos/hero__photo.jpg");
-   right: 0;
-   top: 0;
-   bottom: 0;
-   height: 100%;
-   width: 80%;
-   background-size: cover;
-   z-index: -1;
+  position: absolute;
+  background-image: linear-gradient(to right, #e5e5e5, transparent 60%),
+    url("/photos/hero__photo.jpg");
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 105vh;
+  width: 70%;
+  background-size: cover;
+  z-index: -1;
 }

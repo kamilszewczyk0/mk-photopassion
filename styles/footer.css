@@ -1,27 +1,25 @@
 .footer {
-   background: black;
-   color: #ffffff;
-   height: 100px;
-   width: 100%;
-   position: absolute;
-   font-size: calc(5px + 0.6vw);
-   font-family: "trajan-sans-pro",
-      sans-serif;
-
+  background: black;
+  color: #ffffff;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  font-size: calc(5px + 0.6vw);
+  font-family: "trajan-sans-pro", sans-serif;
 }
 
 @media (min-width: 1440px) {
-   .footer {
-      font-size: 14px;
-   }
+  .footer {
+    font-size: 14px;
+  }
 }
 
 .footer__link {
-   text-decoration: none;
-   color: white;
-   padding: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
 }
 
 .footer__credits-link {
-   padding: 0;
+  padding: 0;
 }

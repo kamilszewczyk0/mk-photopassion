@@ -1,29 +1,30 @@
 .navigation {
-   position: relative;
-   height: 15vh;
-   width: 45%;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 60px 40px;
+  position: relative;
+  height: 15vh;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0 60px 40px;
 }
 
 .navigation__logo {
-   height: 80px;
+  height: 80px;
 }
 
 .navigation__menu {
-   width: 100%;
-   list-style: none;
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline-start: 0;
+  margin-left: 50px;
 }
 
 .navigation__menu-link {
-   text-decoration: none;
-   color: black;
-   font-family: "trajan-sans-pro",
-      sans-serif;
-   font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: "trajan-sans-pro", sans-serif;
+  font-size: 20px;
 }

@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://use.typekit.net/uxz2bvs.css">
 <link rel="stylesheet" href="./styles/global.css">
 <link rel="stylesheet" href="./styles/container.css">
-<link rel="stylesheet" href="./styles/hero.css">
+<link rel="stylesheet" href="./styles/portfolio.css">
 <link rel="stylesheet" href="./styles/navigation.css">
 <link rel="stylesheet" href="./styles/footer.css">
 <link rel="stylesheet" href="./styles/container-footer.css">
@@ -23,29 +23,54 @@
    <div class="container">
       <nav class="navigation">
 
-         <a href="" class="navigation__ menu-link"><img src="./icons/mk__logo.svg" alt="M K Logo"
+         <a href="index.html" class="navigation__ menu-link"><img src="./icons/mk__logo.svg" alt="M K Logo"
                class="navigation__logo"></a>
 
          <ul class="navigation__menu">
             <li class="navigation__menu-item"><a href="about-me.html" class="navigation__menu-link">About Me</a></li>
-            <li class="navigation__menu-item"><a href="portfolio.html" class="navigation__menu-link">Portfolio</a></li>
+            <li class="navigation__menu-item"><a href="portfolio.html"
+                  class="navigation__menu-link"><strong>Portfolio</strong></a></li>
             <li class="navigation__menu-item"><a href="contact.html" class="navigation__menu-link">Contact</a></li>
          </ul>
       </nav>
-
-      <footer class="footer">
-         <div class="footer__container">
-            <p class="footer__owner">MK PhotoPassion© <script>
-                  document.write(new Date().getFullYear());
-               </script>
-            </p>
-            <div class="footer__social-media"><a class="footer__link footer__instagram-link" href="http://"><i
-                     class="fab fa-instagram"></i></a><a class="footer__link footer__facebook-link" href="http://"><i
-                     class="fab fa-facebook-square"></i></a></div>
-            <p class="footer__credits">Developed by <a href="" class="footer__link footer__credits-link">KWS Code</a>
-            </p>
+      <section class="portfolio">
+         <div class="portfolio__container">
+            <h1 class="portfolio__header">Photography</h1>
+            <div class="portfolio__categories">
+               <div class="portfolio__commercial">
+                  <img class="portfolio__commercial-img portfolio__img"
+                     src="/photos/portfolio-covers/commercial__cover.jpg" alt="Commercial gallery">
+                  <p class="portfolio__description">Commercial</p>
+               </div>
+               <div class="portfolio__personal">
+                  <img class="portfolio__personal-img portfolio__img" src="/photos/portfolio-covers/Personal__cover.jpg"
+                     alt="Personal gallery">
+                  <p class="portfolio__description">Personal</p>
+               </div>
+               <div class="portfolio__other">
+                  <img class="portfolio__other-img portfolio__img" src="/photos/portfolio-covers/other__cover.jpg"
+                     alt="Other gallery">
+                  <p class="portfolio__description">Other</p>
+               </div>
+            </div>
          </div>
-      </footer>
+      </section>
+   </div>
+   <footer class="footer">
+      <div class="footer__container">
+         <p class="footer__owner">MK PhotoPassion©
+            <script>
+               document.write(new Date().getFullYear());
+            </script>
+         </p>
+         <div class="footer__social-media"><a class="footer__link footer__instagram-link" href="http://"><i
+                  class="fab fa-instagram"></i></a><a class="footer__link footer__facebook-link" href="http://"><i
+                  class="fab fa-facebook-square"></i></a></div>
+         <p class="footer__credits">Developed by <a href="" class="footer__link footer__credits-link">KWS Code</a>
+         </p>
+      </div>
+   </footer>
+
 </body>
 
 </html>
