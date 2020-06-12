@@ -16,8 +16,9 @@
 }
 
 .hero__quote {
-  font-family: "Minion Pro", sans-serif;
+  font-family: "minion-pro", sans-serif;
   color: #707070;
+  font-style: italic;
 }
 
 .hero__quote-description {
