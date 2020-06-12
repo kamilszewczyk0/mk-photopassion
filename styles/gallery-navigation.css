@@ -1,0 +1,26 @@
+.gallery__navigation {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gallery__turn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 25px;
+}
+
+.gallery__description {
+  padding: 0 40px;
+}
+
+.gallery__arrow--right {
+  transform: rotateZ(180deg);
+}
+
+.gallery__description-current {
+  align-self: center;
+}

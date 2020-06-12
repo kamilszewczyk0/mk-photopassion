@@ -12,10 +12,11 @@
 <link rel="stylesheet" href="https://use.typekit.net/uxz2bvs.css">
 <link rel="stylesheet" href="./styles/global.css">
 <link rel="stylesheet" href="./styles/container.css">
-<link rel="stylesheet" href="./styles/portfolio.css">
+<link rel="stylesheet" href="./styles/other.css">
 <link rel="stylesheet" href="./styles/navigation.css">
 <link rel="stylesheet" href="./styles/footer.css">
 <link rel="stylesheet" href="./styles/container-footer.css">
+<link rel="stylesheet" href="./styles/gallery-navigation.css">
 
 </head>
 
@@ -33,7 +34,21 @@
             <li class="navigation__menu-item"><a href="contact.html" class="navigation__menu-link">Contact</a></li>
          </ul>
       </nav>
-
+      <section class="gallery">
+         <div class="gallery__navigation">
+            <a href="./personal.html" class="gallery__turn gallery__turning-left">
+               <img class="gallery__arrow--left" src="./icons/arrow.svg" alt="arrow">
+               <p class="gallery__description">Personal</p>
+            </a>
+            <h1 class="gallery__description-current">
+               Other
+            </h1>
+            <a href="./commercial.html" class="gallery__turn gallery__turning-right">
+               <p class="gallery__description">Commercial</p>
+               <img class="gallery__arrow--right" src="./icons/arrow.svg" alt="arrow">
+            </a>
+         </div>
+      </section>
    </div>
    <footer class="footer">
       <div class="footer__container">
@@ -42,12 +57,14 @@
                document.write(new Date().getFullYear());
             </script>
          </p>
-         <div class="footer__social-media"><a class="footer__link footer__instagram-link"
+         <div class="footer__social-media"><a rel="noreferrer noopener" class="footer__link footer__instagram-link"
                href="https://www.instagram.com/kosztyla.photo/" target="_blanc"><i class="fab fa-instagram"></i></a><a
-               class="footer__link footer__facebook-link" href="https://www.facebook.com/MagdalenaKosztylaPhotography/"
-               target="_blanc"><i class="fab fa-facebook-square"></i></a>
+               rel="noreferrer noopener" class="footer__link footer__facebook-link"
+               href="https://www.facebook.com/MagdalenaKosztylaPhotography/" target="_blanc"><i
+                  class="fab fa-facebook-square"></i></a>
          </div>
-         <p class="footer__credits">Developed by <a href="" class="footer__link footer__credits-link">KWS Code</a>
+         <p class="footer__credits">Developed by <a rel="noreferrer noopener" href=""
+               class="footer__link footer__credits-link">KWS Code</a>
          </p>
       </div>
    </footer>
