@@ -1,6 +1,6 @@
 .hero {
   display: flex;
-  height: 85vh;
+  min-height: 85vh;
 }
 
 .hero__left {
@@ -45,7 +45,8 @@
 
 .hero__img {
   position: absolute;
-  background-image: linear-gradient(to right, #e5e5e5, transparent 60%), url("../photos/hero__photo.jpg");
+  background-image: linear-gradient(to right, #e5e5e5, transparent 60%),
+    url("../photos/hero__photo.jpg");
   right: 0;
   top: 0;
   bottom: 0;
