@@ -8,7 +8,7 @@ const masonry = new Macy({
     1024: 4,
   },
   margin: {
-    x: 40,
-    y: 40,
+    x: 20,
+    y: 20,
   },
 });
