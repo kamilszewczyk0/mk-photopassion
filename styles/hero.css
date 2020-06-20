@@ -1,10 +1,10 @@
 .hero {
   display: flex;
-  min-height: 85vh;
+  max-height: calc(100vh - 100px);
 }
 
 .hero__left {
-  height: 85vh;
+  min-height: calc(100vh - 100px);
   width: 40%;
   display: flex;
 }
@@ -50,7 +50,7 @@
   right: 0;
   top: 0;
   bottom: 0;
-  height: 105vh;
+  min-height: 10vh;
   width: 70%;
   background-size: cover;
   z-index: -1;

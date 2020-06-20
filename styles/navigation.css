@@ -1,11 +1,11 @@
 .navigation {
   position: relative;
-  height: 15vh;
+  height: 100px;
   width: 55%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 60px 0 60px 40px;
+  padding: 40px 0 40px 60px;
 }
 
 .navigation__logo {
