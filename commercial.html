@@ -8,7 +8,7 @@
 <script src="https://kit.fontawesome.com/a9fa0bc085.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-   integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://use.typekit.net/uxz2bvs.css">
 <link rel="stylesheet" href="./styles/global.css">
 <link rel="stylesheet" href="./styles/container.css">
@@ -17,107 +17,154 @@
 <link rel="stylesheet" href="./styles/footer.css">
 <link rel="stylesheet" href="./styles/container-footer.css">
 <link rel="stylesheet" href="./styles/gallery-navigation.css">
+<link rel="stylesheet" href="./styles/lightgallery.css">
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/macy/2.5.1/macy.min.js"
-   integrity="sha256-hQXjNt6cwIhqj1BHNCYcbWb8L/sHoo7PNUUZsBrD+9Q=" crossorigin="anonymous"></script>
+      integrity="sha256-hQXjNt6cwIhqj1BHNCYcbWb8L/sHoo7PNUUZsBrD+9Q=" crossorigin="anonymous"></script>
 <script defer src="app.js"></script>
-
+<script src="./js/lightgallery.min.js"></script>
+<script src="./js/lg-thumbnail.min.js"></script>
+<script src="./js/lg-fullscreen.min.js"></script>
 </head>
 
 <body>
-   <div class="container">
-      <nav class="navigation">
+      <div class="container">
+            <nav class="navigation">
 
-         <a href="index.html" class="navigation__ menu-link"><img src="./icons/mk__logo.svg" alt="M K Logo"
-               class="navigation__logo"></a>
+                  <a href="index.html" class="navigation__ menu-link"><img src="./icons/mk__logo.svg" alt="M K Logo"
+                              class="navigation__logo"></a>
 
-         <ul class="navigation__menu">
-            <li class="navigation__menu-item"><a href="about-me.html" class="navigation__menu-link">About Me</a></li>
-            <li class="navigation__menu-item"><a href="portfolio.html"
-                  class="navigation__menu-link"><strong>Portfolio</strong></a></li>
-            <li class="navigation__menu-item"><a href="contact.html" class="navigation__menu-link">Contact</a></li>
-         </ul>
-      </nav>
-      <section class="gallery">
-         <div class="gallery__navigation">
-            <a href="./other.html" class="gallery__turn gallery__turning-left">
-               <img class="gallery__arrow--left" src="./icons/arrow.svg" alt="arrow">
-               <p class="gallery__description">Other</p>
-            </a>
-            <h1 class="gallery__description-current">
-               Commercial
-            </h1>
-            <a href="./personal.html" class="gallery__turn gallery__turning-right">
-               <p class="gallery__description">Personal</p>
-               <img class="gallery__arrow--right" src="./icons/arrow.svg" alt="arrow">
-            </a>
-         </div>
-         <div class="gallery__images">
-            <img src="./photos/commercial/small/Commercial__photo--1.jpg" alt="Commercial photo" class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--2.jpg" alt="Commercial photo" class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--3.jpg" alt="Commercial photo" class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--4.jpg" alt="Commercial photo" class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--5.jpg" alt="Commercial photo" class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--6.jpg" alt="Commercial photo" class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--7.jpg" alt="Commercial photo" class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--8.jpg" alt="Commercial photo" class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--19.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--10.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--11.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--12.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--13.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--14.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--15.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--16.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--17.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--18.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--9.jpg" alt="Commercial photo" class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--20.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--21.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--22.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--23.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--24.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--25.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--26.jpg" alt="Commercial photo"
-               class="gallery__image">
-            <img src="./photos/commercial/small/Commercial__photo--27.jpg" alt="Commercial photo"
-               class="gallery__image">
-         </div>
-      </section>
-   </div>
-   <footer class="footer">
-      <div class="footer__container">
-         <p class="footer__owner">MK PhotoPassion©
-            <script>
-               document.write(new Date().getFullYear());
-            </script>
-         </p>
-         <div class="footer__social-media"><a rel="noreferrer noopener" class="footer__link footer__instagram-link"
-               href="https://www.instagram.com/kosztyla.photo/" target="_blanc"><i class="fab fa-instagram"></i></a><a
-               rel="noreferrer noopener" class="footer__link footer__facebook-link"
-               href="https://www.facebook.com/MagdalenaKosztylaPhotography/" target="_blanc"><i
-                  class="fab fa-facebook-square"></i></a>
-         </div>
-         <p class="footer__credits">Developed by <a rel="noreferrer noopener" href=""
-               class="footer__link footer__credits-link">KWS Code</a>
-         </p>
+                  <ul class="navigation__menu">
+                        <li class="navigation__menu-item"><a href="about-me.html" class="navigation__menu-link">About
+                                    Me</a></li>
+                        <li class="navigation__menu-item"><a href="portfolio.html"
+                                    class="navigation__menu-link"><strong>Portfolio</strong></a></li>
+                        <li class="navigation__menu-item"><a href="contact.html"
+                                    class="navigation__menu-link">Contact</a></li>
+                  </ul>
+            </nav>
+            <section class="gallery">
+                  <div class="gallery__navigation">
+                        <a href="./other.html" class="gallery__turn gallery__turning-left">
+                              <img class="gallery__arrow--left" src="./icons/arrow.svg" alt="arrow">
+                              <p class="gallery__description">Other</p>
+                        </a>
+                        <h1 class="gallery__description-current">
+                              Commercial
+                        </h1>
+                        <a href="./personal.html" class="gallery__turn gallery__turning-right">
+                              <p class="gallery__description">Personal</p>
+                              <img class="gallery__arrow--right" src="./icons/arrow.svg" alt="arrow">
+                        </a>
+                  </div>
+                  <div class="gallery__images" id="lightgallery">
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--1.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--1.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--2.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--2.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--3.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--3.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--4.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--4.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--5.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--5.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--6.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--6.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--7.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--7.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--8.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--8.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--19.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--19.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--10.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--10.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--11.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--11.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--12.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--12.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--13.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--13.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--14.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--14.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--15.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--15.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--16.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--16.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--17.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--17.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--18.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--18.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--9.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--9.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--20.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--20.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--21.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--21.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--22.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--22.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--23.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--23.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--24.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--24.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--25.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--25.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--26.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--26.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                        <a class="gallery__link" href="./photos/commercial/big/Commercial__photo--27.jpg"><img
+                                    src="./photos/commercial/small/Commercial__photo--27.jpg" alt="Commercial photo"
+                                    class="gallery__image"></a>
+                  </div>
+            </section>
       </div>
-   </footer>
+      <footer class="footer">
+            <div class="footer__container">
+                  <p class="footer__owner">MK PhotoPassion©
+                        <script>
+                              document.write(new Date().getFullYear());
+                        </script>
+                  </p>
+                  <div class="footer__social-media"><a rel="noreferrer noopener"
+                              class="footer__link footer__instagram-link"
+                              href="https://www.instagram.com/kosztyla.photo/" target="_blanc"><i
+                                    class="fab fa-instagram"></i></a><a rel="noreferrer noopener"
+                              class="footer__link footer__facebook-link"
+                              href="https://www.facebook.com/MagdalenaKosztylaPhotography/" target="_blanc"><i
+                                    class="fab fa-facebook-square"></i></a>
+                  </div>
+                  <p class="footer__credits">Developed by <a rel="noreferrer noopener" href=""
+                              class="footer__link footer__credits-link">KWS Code</a>
+                  </p>
+            </div>
+      </footer>
+
+      <script type="text/javascript">
+            lightGallery(document.getElementById('lightgallery')); 
+      </script>
 
 </body>
 

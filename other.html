@@ -17,9 +17,13 @@
 <link rel="stylesheet" href="./styles/footer.css">
 <link rel="stylesheet" href="./styles/container-footer.css">
 <link rel="stylesheet" href="./styles/gallery-navigation.css">
+<link rel="stylesheet" href="./styles/lightgallery.css">
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/macy/2.5.1/macy.min.js"
    integrity="sha256-hQXjNt6cwIhqj1BHNCYcbWb8L/sHoo7PNUUZsBrD+9Q=" crossorigin="anonymous"></script>
 <script defer src="app.js"></script>
+<script src="./js/lightgallery.min.js"></script>
+<script src="./js/lg-thumbnail.min.js"></script>
+<script src="./js/lg-fullscreen.min.js"></script>
 
 </head>
 
@@ -51,15 +55,23 @@
                <img class="gallery__arrow--right" src="./icons/arrow.svg" alt="arrow">
             </a>
          </div>
-         <div class="gallery__images">
-            <img src="./photos/other/small/Other__photo-1.jpg" alt="Other photo" class="gallery__image">
-            <img src="./photos/other/small/Other__photo-2.jpg" alt="Other photo" class="gallery__image">
-            <img src="./photos/other/small/Other__photo-3.jpg" alt="Other photo" class="gallery__image">
-            <img src="./photos/other/small/Other__photo-4.jpg" alt="Other photo" class="gallery__image">
-            <img src="./photos/other/small/Other__photo-5.jpg" alt="Other photo" class="gallery__image">
-            <img src="./photos/other/small/Other__photo-6.jpg" alt="Other photo" class="gallery__image">
-            <img src="./photos/other/small/Other__photo-7.jpg" alt="Other photo" class="gallery__image">
-            <img src="./photos/other/small/Other__photo-8.jpg" alt="Other photo" class="gallery__image">
+         <div class="gallery__images" id="lightgallery">
+            <a href="./photos/other/big/Other__photo-1.jpg" class="gallery__link"><img
+                  src="./photos/other/small/Other__photo-1.jpg" alt="Other photo" class="gallery__image"></a>
+            <a href="./photos/other/big/Other__photo-2.jpg" class="gallery__link"><img
+                  src="./photos/other/small/Other__photo-2.jpg" alt="Other photo" class="gallery__image"></a>
+            <a href="./photos/other/big/Other__photo-3.jpg" class="gallery__link"><img
+                  src="./photos/other/small/Other__photo-3.jpg" alt="Other photo" class="gallery__image"></a>
+            <a href="./photos/other/big/Other__photo-4.jpg" class="gallery__link"><img
+                  src="./photos/other/small/Other__photo-4.jpg" alt="Other photo" class="gallery__image"></a>
+            <a href="./photos/other/big/Other__photo-5.jpg" class="gallery__link"><img
+                  src="./photos/other/small/Other__photo-5.jpg" alt="Other photo" class="gallery__image"></a>
+            <a href="./photos/other/big/Other__photo-6.jpg" class="gallery__link"><img
+                  src="./photos/other/small/Other__photo-6.jpg" alt="Other photo" class="gallery__image"></a>
+            <a href="./photos/other/big/Other__photo-7.jpg" class="gallery__link"><img
+                  src="./photos/other/small/Other__photo-7.jpg" alt="Other photo" class="gallery__image"></a>
+            <a href="./photos/other/big/Other__photo-8.jpg" class="gallery__link"><img
+                  src="./photos/other/small/Other__photo-8.jpg" alt="Other photo" class="gallery__image"></a>
          </div>
       </section>
    </div>
@@ -81,7 +93,9 @@
          </p>
       </div>
    </footer>
-
+   <script type="text/javascript">
+      lightGallery(document.getElementById('lightgallery')); 
+   </script>
 </body>
 
 </html>
