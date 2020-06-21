@@ -1,14 +1,10 @@
 @font-face {
   font-family: "lg";
-  src: url("../node_modules/lightgallery.js/src/fonts/lg.eot?n1z373");
-  src: url("../node_modules/lightgallery.js/src/fonts/lg.eot?#iefixn1z373")
-      format("embedded-opentype"),
-    url("../node_modules/lightgallery.js/src/fonts/lg.woff?n1z373")
-      format("woff"),
-    url("../node_modules/lightgallery.js/src/fonts/lg.ttf?n1z373")
-      format("truetype"),
-    url("../node_modules/lightgallery.js/src/fonts/lg.svg?n1z373#lg")
-      format("svg");
+  src: url("../fonts/lg.eot?n1z373");
+  src: url("../fonts/lg.eot?#iefixn1z373") format("embedded-opentype"),
+    url("../fonts/lg.woff?n1z373") format("woff"),
+    url("../fonts/lg.ttf?n1z373") format("truetype"),
+    url("../fonts/lg.svg?n1z373#lg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
