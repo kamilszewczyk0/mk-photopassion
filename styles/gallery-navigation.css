@@ -1,5 +1,6 @@
 .gallery__navigation {
   height: 100px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,17 +15,25 @@
 }
 
 .gallery__description {
-  padding: 0 40px;
   font-size: 25px;
 }
 
+.gallery__arrow--left {
+  padding: 0 20px;
+}
+
 .gallery__arrow--right {
+  padding: 0 20px;
   transform: rotateZ(180deg);
 }
 
 .gallery__description-current {
   align-self: center;
   font-size: 25px;
+}
+
+.gallery__container {
+  padding: 50px;
 }
 
 .gallery__image {
