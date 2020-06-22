@@ -4,6 +4,7 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="./icons/favicon.png" type="image/x-icon">
 <title>MK PhotoPassion - I'll catch every frame for You</title>
 <script src="https://kit.fontawesome.com/a9fa0bc085.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
@@ -23,10 +24,12 @@
    <div class="container">
       <nav class="navigation">
 
-         <a href="" class="navigation__ menu-link"><img src="./icons/mk__logo.svg" alt="M K Logo"
-               class="navigation__logo"></a>
+         <a href="index.html" class="navigation__ menu-link navigation__menu-link--img"><img src="./icons/mk__logo.svg"
+               alt="M K Logo" class="navigation__logo"></a>
 
          <ul class="navigation__menu">
+            <li class="navigation__menu-item navigation__menu-item--hidden"><a href="index.html"
+                  class="navigation__menu-link"><strong>Home</strong></a></li>
             <li class="navigation__menu-item"><a href="about-me.html" class="navigation__menu-link">About Me</a></li>
             <li class="navigation__menu-item"><a href="portfolio.html" class="navigation__menu-link">Portfolio</a></li>
             <li class="navigation__menu-item"><a href="contact.html" class="navigation__menu-link">Contact</a></li>
@@ -54,9 +57,10 @@
                document.write(new Date().getFullYear());
             </script>
          </p>
-         <div class="footer__social-media"><a rel="noreferrer noopener" class="footer__link footer__instagram-link"
-               href="https://www.instagram.com/kosztyla.photo/" target="_blanc"><i class="fab fa-instagram"></i></a><a
-               rel="noreferrer noopener" class="footer__link footer__facebook-link"
+         <div class="footer__social-media"><a rel="noreferrer noopener" aria-label="Instagram"
+               class="footer__link footer__instagram-link" href="https://www.instagram.com/kosztyla.photo/"
+               target="_blanc"><i class="fab fa-instagram"></i></a><a rel="noreferrer noopener"
+               class="footer__link footer__facebook-link" aria-label="Facebook"
                href="https://www.facebook.com/MagdalenaKosztylaPhotography/" target="_blanc"><i
                   class="fab fa-facebook-square"></i></a>
          </div>
