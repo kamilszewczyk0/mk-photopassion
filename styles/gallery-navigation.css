@@ -39,3 +39,22 @@
 .gallery__image {
   width: 100%;
 }
+
+@media (max-width: 1024px) {
+  .gallery__navigation {
+    padding: 0 20px;
+  }
+
+  .gallery__description {
+    font-size: 14px;
+  }
+  .gallery__description-current {
+    font-size: 16px;
+  }
+
+  .gallery__arrow--left,
+  .gallery__arrow--right {
+    height: 15px;
+    padding: 0 5px;
+  }
+}

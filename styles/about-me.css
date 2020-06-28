@@ -26,6 +26,13 @@
   font-size: 25px;
 }
 
+@media (max-width: 1024px) {
+  .about-me__header {
+    font-size: 18px;
+    padding-bottom: 4vh;
+  }
+}
+
 .about-me__text {
   text-align: justify;
   padding-bottom: 4vh;
@@ -54,6 +61,7 @@
 @media (max-width: 1024px) {
   .about-me--mobile {
     display: block;
+    min-height: calc(100vh - 100px);
   }
 
   .about-me__content--mobile {

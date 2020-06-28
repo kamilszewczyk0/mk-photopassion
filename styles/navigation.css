@@ -67,6 +67,7 @@
     z-index: 1;
     pointer-events: none;
     opacity: 0;
+    font-size: 18px;
   }
 }
 
@@ -106,7 +107,7 @@
 @media (max-width: 1024px) {
   .navigation__burger {
     z-index: 50;
-    position: fixed;
+    position: absolute;
     top: 0.7rem;
     right: 1.2rem;
     display: flex;
@@ -125,8 +126,8 @@
 
 @media (max-width: 1024px) {
   .navigation__burger-line {
-    width: 40px;
-    height: 4px;
+    width: 35px;
+    height: 2px;
     background: #000000;
     border-radius: 50px;
     transition: all 0.5s ease-in-out;
@@ -136,19 +137,19 @@
   .navigation__burger-line::after {
     content: "";
     position: absolute;
-    width: 40px;
-    height: 4px;
+    width: 35px;
+    height: 2px;
     background: #000000;
     border-radius: 50px;
     transition: all 0.5s ease-in-out;
   }
 
   .navigation__burger-line::before {
-    transform: translateY(-12px);
+    transform: translateY(-10px);
   }
 
   .navigation__burger-line::after {
-    transform: translateY(12px);
+    transform: translateY(10px);
   }
 }
 

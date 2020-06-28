@@ -30,7 +30,7 @@
 
 @media (max-width: 1024px) {
   .hero__quote-container {
-    margin: auto 13px;
+    margin: auto;
   }
 }
 
