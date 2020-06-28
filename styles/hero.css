@@ -30,7 +30,7 @@
 
 @media (max-width: 1024px) {
   .hero__quote-container {
-    margin: auto;
+    margin: auto 13px;
   }
 }
 
@@ -64,7 +64,7 @@
 
 @media (max-width: 1024px) {
   .hero__quote-name {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 
@@ -85,6 +85,12 @@
   width: 70%;
   background-size: cover;
   z-index: -1;
+}
+
+@media (max-width: 1424px) {
+  .hero__img {
+    width: 90%;
+  }
 }
 
 @media (max-width: 1024px) {

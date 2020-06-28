@@ -6,6 +6,13 @@
   font-family: "Tenali Ramakrishna", sans-serif;
 }
 
+@media (max-width: 1024px) {
+  .contact {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 .contact__left-container {
   flex-basis: 50%;
 }
@@ -67,6 +74,13 @@
   width: 85%;
 }
 
+@media (max-width: 1024px) {
+  .contact__description {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
 .contact__instruction-header {
   padding-bottom: 50px;
   text-align: center;
@@ -75,6 +89,12 @@
 .contact__instruction-list {
   padding-bottom: 30px;
   margin-left: 40px;
+}
+
+@media (max-width: 1024px) {
+  .contact__instruction-list {
+    margin: 0 auto;
+  }
 }
 
 .contact__phone-number,

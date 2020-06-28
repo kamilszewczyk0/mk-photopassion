@@ -3,6 +3,12 @@
   display: flex;
 }
 
+@media (max-width: 1024px) {
+  .about-me {
+    display: none;
+  }
+}
+
 .about-me__description {
   width: 50%;
   margin: auto;
@@ -35,8 +41,34 @@
 }
 
 .about-me__img {
-  width: 30vw;
+  max-width: 30vw;
   position: relative;
-  bottom: 50px;
-  max-width: 550px;
+  bottom: 20px;
+  max-height: 750px;
+}
+
+.about-me--mobile {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .about-me--mobile {
+    display: block;
+  }
+
+  .about-me__content--mobile {
+    margin: 0 20px 80px;
+  }
+
+  .about-me__text--mobile {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .about-me__img--mobile {
+    float: right;
+    width: 175px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
 }

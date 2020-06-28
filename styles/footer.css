@@ -3,12 +3,34 @@
   color: #ffffff;
   height: 100px;
   width: 100%;
-  font-size: calc(5px + 0.6vw);
+  font-size: 10px;
   font-family: "trajan-sans-pro", sans-serif;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1020px) {
   .footer {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 340px) {
+  .footer {
+    font-size: 9px;
+  }
+}
+
+.footer__social-media {
+  font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+  .footer__social-media {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 340px) {
+  .footer__social-media {
     font-size: 14px;
   }
 }

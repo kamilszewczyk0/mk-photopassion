@@ -8,6 +8,12 @@
   padding: 40px 0 40px 60px;
 }
 
+@media (max-width: 1280px) {
+  .navigation {
+    width: 70%;
+  }
+}
+
 @media (max-width: 1024px) {
   .navigation {
     width: 100%;
@@ -22,6 +28,14 @@
 
 .navigation__logo {
   height: 80px;
+}
+
+@media (max-width: 1024px) {
+  .navigation__logo {
+    height: 60px;
+    position: relative;
+    right: 35px;
+  }
 }
 
 .navigation__menu {
@@ -64,9 +78,16 @@
   }
 }
 
+@media (max-width: 1280px) {
+  .navigation__menu-item {
+    margin-right: 40px;
+  }
+}
+
 @media (max-width: 1024px) {
   .navigation__menu-item {
     padding: 50px 0;
+    margin-right: 0;
   }
 }
 
@@ -85,9 +106,9 @@
 @media (max-width: 1024px) {
   .navigation__burger {
     z-index: 50;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    position: fixed;
+    top: 0.7rem;
+    right: 1.2rem;
     display: flex;
     cursor: pointer;
     justify-content: center;
@@ -95,6 +116,7 @@
     width: 80px;
     height: 80px;
   }
+
   .burger-open {
     position: fixed;
     overflow: hidden;
@@ -103,8 +125,8 @@
 
 @media (max-width: 1024px) {
   .navigation__burger-line {
-    width: 50px;
-    height: 6px;
+    width: 40px;
+    height: 4px;
     background: #000000;
     border-radius: 50px;
     transition: all 0.5s ease-in-out;
@@ -114,19 +136,19 @@
   .navigation__burger-line::after {
     content: "";
     position: absolute;
-    width: 50px;
-    height: 6px;
+    width: 40px;
+    height: 4px;
     background: #000000;
     border-radius: 50px;
     transition: all 0.5s ease-in-out;
   }
 
   .navigation__burger-line::before {
-    transform: translateY(-15px);
+    transform: translateY(-12px);
   }
 
   .navigation__burger-line::after {
-    transform: translateY(15px);
+    transform: translateY(12px);
   }
 }
 
