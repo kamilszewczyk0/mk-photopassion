@@ -2,6 +2,21 @@
   margin: 10px 50px;
 }
 
+.gallery__link {
+  overflow: hidden;
+}
+
+.gallery__image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gallery__image:hover {
+  transform: scale(1.1);
+  transition: transform 1s ease-out;
+}
+
 @media (max-width: 1024px) {
   .gallery {
     margin: 10px 0;

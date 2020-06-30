@@ -34,15 +34,22 @@
   text-decoration: none;
   color: inherit;
   flex-basis: 33%;
-}
-
-.portfolio__img {
-  width: 70%;
+  overflow: hidden;
 }
 
 .portfolio__description {
   padding-top: 20px;
   font-size: 20px;
+}
+
+.portfolio__img {
+  width: 70%;
+  object-fit: cover;
+}
+
+.portfolio__img:hover {
+  transform: scale(1.05);
+  transition: transform 0.7s ease-out;
 }
 
 .portfolio--mobile {
