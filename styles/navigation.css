@@ -120,6 +120,12 @@
     background: inherit;
   }
 
+  .navigation__burger:focus {
+    border: none;
+    background-color: inherit;
+    outline: none;
+  }
+
   .burger-open {
     position: fixed;
     overflow: hidden;
@@ -143,7 +149,6 @@
     height: 2px;
     background: #000000;
     border-radius: 50px;
-    transition: all 0.5s ease-in-out;
   }
 
   .navigation__burger-line::before {
