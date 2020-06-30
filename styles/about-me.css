@@ -3,7 +3,7 @@
   display: flex;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 550px) {
   .about-me {
     display: none;
   }
@@ -59,7 +59,7 @@
   display: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 550px) {
   .about-me--mobile {
     display: block;
     min-height: calc(100vh - 100px);
