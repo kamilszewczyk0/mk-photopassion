@@ -34,7 +34,7 @@
   text-decoration: none;
   color: inherit;
   flex-basis: 33%;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .portfolio__description {
