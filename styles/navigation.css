@@ -132,7 +132,7 @@
     height: 2px;
     background: #000000;
     border-radius: 50px;
-    transition: transform 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 
   .navigation__burger-line::before,
@@ -143,6 +143,7 @@
     height: 2px;
     background: #000000;
     border-radius: 50px;
+    transition: all 0.3s ease-in-out;
   }
 
   .navigation__burger-line::before {
@@ -151,6 +152,19 @@
 
   .navigation__burger-line::after {
     transform: translateY(10px) translateX(-18px);
+  }
+
+  .burger--open .navigation__burger-line {
+    transform: translateX(-15px);
+    background-color: transparent;
+  }
+
+  .burger--open .navigation__burger-line::before {
+    transform: rotate(45deg);
+  }
+
+  .burger--open .navigation__burger-line::after {
+    transform: rotate(-45deg);
   }
 }
 
