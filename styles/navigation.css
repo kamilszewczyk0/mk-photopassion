@@ -120,7 +120,7 @@
     outline: none;
   }
 
-  .burger-open {
+  .burger--open {
     position: fixed;
     overflow: hidden;
   }
