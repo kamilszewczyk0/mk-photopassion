@@ -1,14 +1,17 @@
 .gallery__navigation {
-  height: 100px;
+  margin-top: 60px;
+  height: 30px;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
+  font-family: "Tenali Ramakrishna", sans-serif;
+  padding: 0;
 }
 
 .gallery__turn {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   text-decoration: none;
   color: inherit;
   font-size: 25px;
@@ -16,20 +19,22 @@
 
 .gallery__description {
   font-size: 25px;
+  margin: 0;
 }
 
-.gallery__arrow--left {
+.gallery__arrow--left,
+.gallery__arrow--right {
   padding: 0 20px;
+  height: 20px;
 }
 
 .gallery__arrow--right {
-  padding: 0 20px;
   transform: rotateZ(180deg);
 }
 
 .gallery__description-current {
-  align-self: center;
   font-size: 25px;
+  margin: 0;
 }
 
 .gallery__container {
