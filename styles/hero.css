@@ -54,6 +54,7 @@
   .hero__quote-description {
     text-align: center;
     font-size: 16px;
+    padding: 0 10px;
   }
 }
 
